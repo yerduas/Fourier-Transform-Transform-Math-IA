@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.io import wavfile
 
-fs, data = wavfile.read(r"FFT Mornning Bell")
+fs, data = wavfile.read(r"FFT Mornning Bell.wav")
 
 #normalizing (this makes the y-axis mroe readable)
 data = data / (2**15)
